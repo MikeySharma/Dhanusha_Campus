@@ -11,7 +11,7 @@ const App = () => {
       {/* </Routes> */}
 
       <HomePage/>
-      <About/>
+      {/* <About/> */}
     </section>
   )
 }
