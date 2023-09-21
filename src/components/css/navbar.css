@@ -1,0 +1,166 @@
+nav {
+    min-height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to right, #00c6fb 0%, #005bea 100%);
+    color: #fff;
+    padding: 10px 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+#collegeName {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#logo {
+    max-width: 3vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nav-right ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-right ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+#nav2 {
+    height: 3.5vw;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#nav2 ul {
+    display: flex;
+    gap: 2vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav2 ul li {
+    list-style: none;
+    cursor: pointer;
+}
+#nav2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+@media (max-width: 500px) {
+    nav {
+        padding: 2px 5px;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        z-index: 9;
+        left: 0;
+        width: 100%;
+    }
+
+    #nav2 {
+        display: none;
+    }
+
+    #logo {
+        max-width: 10vw;
+    }
+
+    #collegeName {
+        font-size: 10px;
+    }
+
+    #collegeName span:nth-child(3) {
+        display: none;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+.login-btn-mobile {
+    display: none;
+}
+
+.hamburger-menu {
+    height: fit-content;
+    width: 50%;
+    background-color: rgb(58, 57, 57);
+    padding: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    position: fixed;
+    border-radius: 10px;
+    top: 6%;
+    right: 0;
+    z-index: 99999;
+}
+#hamburger-display{
+    display: none;
+}
+
+.menu-toggler {
+    display: block;
+}
+
+.hamburger-menu ul {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hamburger-menu ul li {
+    text-align: center;
+    cursor: hover;
+
+}
+
+.hamburger-menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu-icon {
+    font-size: 25px;
+    margin-top: 7px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}

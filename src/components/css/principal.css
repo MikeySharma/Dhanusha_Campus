@@ -1,0 +1,98 @@
+.page3{
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    margin-top: 3vw;
+    box-shadow: 0 -2px 2px grey;
+    padding-top: 3vw;
+}
+.principal {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: -20vw;
+}
+
+.principal .principal-img {
+    height: 80vh;
+    width: 40vw;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 20vw;
+}
+
+ .principal .principal-img .img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("https://sxc.edu.np/uploads/board_message/Fr Augustine Thomas SJ-file-20230613093300-455.jpg");
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+.about-principal {
+    height: 75vh;
+    width: 400px;
+    padding: 20px;
+    letter-spacing: .8px;
+    word-spacing: 1.3px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(126, 126, 126),
+    3px -3px 3px rgb(136, 135, 135);
+    position: absolute;
+    left: 50%;
+}
+.about-principal h1{
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 1;
+    word-spacing: 1.3px;
+    letter-spacing: 1.2px;
+    margin-bottom: 15px;
+}
+.about-principal h3{
+    opacity: .8;
+}
+.about-principal p{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+@media (max-width: 900px){
+    .page3{
+        position:static;
+    }
+    .principal{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2em;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .principal .principal-img{
+        height: 40vh;
+        width: 100%;
+        margin-left: 0;
+    }
+    .about-principal{
+        height: fit-content;
+        width: 100%;
+        position: static;
+    }
+    .about-principal h1{
+        font-size: 25px;
+    }
+    .about-principal h3{
+        font-size: 18px;
+    }
+    .about-principal p{
+        font-size: 18px;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,177 @@
+.category-head {
+    height: 7vw;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 2px 2px 2px grey,
+        -2px -2px 2px grey;
+    margin-bottom: 3vw;
+}
+
+.category-head-left {
+    padding: 10px 10px;
+}
+
+.category-head-up {
+    font-size: 19px;
+    font-weight: 500;
+    opacity: .8;
+}
+
+.category-head-down {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.category-head-right ion-icon {
+    font-size: 4vw;
+    cursor: pointer;
+    color: #002147
+}
+
+.category-head-right ion-icon:hover {
+    color: #9B0C23;
+}
+
+.page4 .container1 {
+    min-height: 80vh;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.grid-rows-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 80vw;
+    margin: 0 auto;
+    grid-auto-rows: repeat(3, 1fr);
+
+}
+
+.card {
+    width: 18rem;
+    height: 25rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px grey,
+        -2px -2px 2px grey;
+    margin: 2vw;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.imgHolder {
+    overflow: hidden;
+    height: 15rem;
+    width: 18rem;
+}
+
+.img-holder {
+    height: 15rem;
+    width: 18rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.wave {
+    height: 40%;
+    left: 0;
+    width: 18rem;
+    bottom: 0;
+    position: absolute;
+    overflow: hidden;
+    transform: rotate(180deg);
+    line-height: 0;
+    filter: invert(1);
+}
+
+.card-title {
+    font-size: large;
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+.card-text {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-card {
+    background: #002147;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1vw auto;
+    transition: all ease .3s;
+}
+
+.btn-card:hover {
+    background: #9B0C23;
+    box-shadow: 3px 3px 3px grey;
+}
+
+@media (max-width: 900px) {
+    .category-head {
+        height: 3rem;
+        width: 100%;
+        margin: 10vw 0;
+        padding: 5px;
+
+    }
+
+    .category-head-left {
+        padding: 5px;
+    }
+
+    .category-head-up {
+        font-size: 12px;
+    }
+
+    .category-head-down {
+        font-size: 16px;
+    }
+
+    .category-head-right ion-icon {
+        font-size: 10vw;
+        margin-top: 10px;
+    }
+
+    .grid-rows-columns {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        height: fit-content;
+        margin: 3vw 0;
+    }
+    .img-holder{
+        width: 100%;
+    }
+    .imgHolder {
+        width: 100%;
+    }
+
+    .wave {
+        width: 100%;
+    }
+
+    .btn-card {
+        margin: 3vw auto;
+    }
+}
