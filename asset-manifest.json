@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Dhanusha_Campus/static/css/main.bdefef7d.css",
+    "main.js": "/Dhanusha_Campus/static/js/main.a965b0a9.js",
+    "static/media/college-logo.jpg": "/Dhanusha_Campus/static/media/college-logo.72c5b9739285685fbf34.jpg",
+    "static/media/wave.svg": "/Dhanusha_Campus/static/media/wave.68dc9718ca9e85f8189f61b9dc610567.svg",
+    "index.html": "/Dhanusha_Campus/index.html",
+    "main.bdefef7d.css.map": "/Dhanusha_Campus/static/css/main.bdefef7d.css.map",
+    "main.a965b0a9.js.map": "/Dhanusha_Campus/static/js/main.a965b0a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdefef7d.css",
+    "static/js/main.a965b0a9.js"
+  ]
+}
